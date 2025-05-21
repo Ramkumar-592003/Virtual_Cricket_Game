@@ -30,4 +30,5 @@ A fun and interactive hand cricket game built using HTML, CSS, and JavaScript.
 
 ---
 
-Made with ❤️ by [Your Name]
+Made with ❤️ by [Ramkumar R]
+
