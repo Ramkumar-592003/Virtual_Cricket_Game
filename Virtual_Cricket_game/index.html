@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2 class="Title"> Hand-Cricket Game</h2>
+    <div class="Toss">
+        <button id="Even" class="btn" >Even</button>
+        <p id="Or">Choose Even or Odd</p>
+        <button id="Odd" class="btn">ODD</button><br>
+    </div>
+    <div class="userInput" style="display: none;">    
+        <input type="text" id="inputValue" placeholder="Enter Number">
+        <button type="submit" id="submitValue" class="submit"  onclick="submitted()">Submit</button>
+    </div>
+    <div class="batOrbowl">
+        <button class="batbtn " id="batting">Batting </button>
+        <p class="descOutput" id="descoutput" > </p>
+        <button class="batbtn " id="bowling" >Bowling</button>
+    </div>
+ 
+    <div class="image" >
+        <img src="" alt="" class="img" id="userhand">
+        <p id="score"></p>
+        <img src="" alt="" class="img" id="opphand">
+    </div>
+
+    <div class="scoreCard" >
+        <div class="userScore">
+            <h3 id="yt"> Your Total</h3>
+            <p id="yourTotal">0</p>
+        </div>
+        <div class="Run">
+            <button id="run1" class="runbtn">1</button>
+            <button id="run2" class="runbtn" >2</button>
+            <button id="run3" class="runbtn">3</button>
+            <button id="run4" class="runbtn">4</button>
+            <button id="run5" class="runbtn">5</button>
+            <button id="run6" class="runbtn">6</button>
+        </div>
+        <div class="opponentScore">
+            <h3 id="ot"> Opponent Total</h3>
+            <p id="opponentTotal">0</p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,348 @@
+body{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin: 0px;
+     font-size: 2rem;
+     background-color: whitesmoke;
+     /* background:linear-gradient(to bottom,#cceeff,#e6f7ff,#ffffff); */
+     /* background-image: url("hands/15.jpg");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover; */
+}
+h2{
+    font-size: 3.5rem;
+    margin-top: 0px;
+    background-image: url("hands/cover_page_2.jpg");
+    background-position: center;
+    -webkit-background-clip: text;
+    color:rgba(255, 0, 0, 0.323);
+
+
+
+}
+.Toss{
+    margin: 0px 0px;
+    display: flex;
+    flex-direction: row;
+    /* background-color: blue; */
+    width: 1200px;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+
+}
+.btn{
+    padding-bottom: 5px;
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+    font-size: 3rem;
+    margin: 15px 15px;
+    width: 180px;
+    height: 180px;
+    position: relative;
+    border: 2px solid grey;
+    border-radius: 50%;
+    cursor: pointer;
+    background-image: url("hands/cover_page_3.avif");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:rgb(239, 11, 141);
+    text-align:;
+
+}
+.Even{
+    position: absolute;
+}
+.Odd{
+    position: absolute;
+}
+.btn:hover{
+    background-color: brown;
+}
+#Or{
+    background: linear-gradient(0deg,#101820,#FEE715);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.userInput{
+    /* font-size: 2rem; */
+    margin: 20px ;
+    
+}
+#inputValue{
+    padding: 5px ;
+    font-size: 2rem;
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 40px;
+    color: black;
+    transition: all 0.3s ease;
+}
+#inputValue::placeholder{
+    color: #bc1c5998;
+    opacity: 0.7;
+}
+.submit{
+    font-size: 2rem;
+    background-color: white;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 25px;
+    cursor: pointer;
+    color: black;
+}
+.submit:hover{
+    background-color: rgb(8, 156, 214);
+}
+
+.batOrbowl{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+
+}
+.batbtn{
+    padding: 10px 10px;
+    font-size: 2rem;
+    margin: 10px;
+    background-color: white;
+    border: 2px solid grey;
+    border-radius: 30px;
+    cursor: pointer;
+    display: none;
+}
+.is-hidden{
+    display: none;
+}
+.batbtn:hover{
+    background:linear-gradient(45deg,skyblue,white);
+    /* background-color:#f94d78; */
+}
+.descOutput{
+    margin: 10px;
+    margin-bottom: 0px;
+    font-family:'Poppins';
+    font-style:italic;
+    /* background: linear-gradient(0deg,#101820,#FEE715); */
+    background: linear-gradient(0deg,#990011,#FCF6F5);
+    /* background: linear-gradient(160deg,#89ABE3,#EA738D); */
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.image{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0px;
+    justify-content: space-between;
+    width:1000px;
+}
+.img{
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+
+}
+#score{
+    font-size: 4rem;
+    background-image: url("hands/12.jpg");
+    background-position: center;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.scoreCard{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    /* background-color: red; */
+    width: auto;
+    width: 1500px;
+
+}
+.Run{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: aqua; */
+    justify-content: space-between;
+    width: 700px;
+    z-index: 0;
+    
+}
+/* .Run::before{
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(10deg,rgb(171, 223, 244),white);
+    z-index: -1;
+} */
+.runbtn{
+    padding-bottom: 0px;
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 8rem;
+    margin: 15px 15px;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    border: 2px solid grey;
+    border-radius: 50%;
+    cursor: pointer;
+    color: transparent;
+    background-image: url("hands/13.jpg");
+    background-position: center;
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-color: red;
+    text-align: center;
+    
+    
+}
+.runbtn:hover{
+    /* font-size: 4rem; */
+}
+.clicked-effect{
+    background: none;
+    background-image: url("hands/13.jpg");
+    background-size: cover;
+    color: white;
+    transform: scale(0.85);
+    background-color: #2ecc71;
+    transition: all 0.3s ease;
+}
+.clicked-bowl-effect{
+    background: none;
+    background-image: url("hands/b5.png");
+    background-size: cover;
+    color: white;
+    transform: scale(0.85);
+    background-color: #2ecc71;
+    transition: all 0.3s ease;
+
+}
+
+.userScore{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.opponentScore{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#ot{
+        /* background: linear-gradient(0deg,#101820,#FEE715); */
+        background: linear-gradient(0deg,#990011);
+        /* background: linear-gradient(160deg,#89ABE3,#EA738D); */
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    
+}
+#yt{
+        /* background: linear-gradient(0deg,#101820,#FEE715); */
+        background: linear-gradient(0deg,#31473A);
+        /* background: linear-gradient(160deg,#89ABE3,#EA738D); */
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+}
+/* .Run{
+    background-color: #2ecc71;
+} */
+
+
+
+
+@media screen and (max-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-size: 16px;
+    background-color: #fff;
+  }
+
+  h1, h2, h3 {
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .toss-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .toss-section img {
+    width: 120px;
+    height: auto;
+    margin-top: 10px;
+  }
+
+  .toss-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 10px 0;
+  }
+
+  .toss-buttons button {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+
+  .number-buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 10px 20px;
+  }
+
+  .number-buttons button {
+    width: 100%;
+    padding: 20px 0;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    background: white;
+  }
+
+  .score-section {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .score-card {
+    background-color: #f0f0f0;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
